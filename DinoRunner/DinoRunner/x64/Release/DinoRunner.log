@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\C++ Projects\DinoRunner\DinoRunner\DinoRunner\main.cpp(74,32): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating code
+  3 of 133 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DinoRunner.vcxproj -> C:\C++ Projects\DinoRunner\DinoRunner\x64\Release\DinoRunner.exe

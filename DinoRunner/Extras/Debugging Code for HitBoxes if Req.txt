@@ -1,0 +1,15 @@
+// Debugging Code for HitBoxes if Required  
+RectangleShape DinoRect(Vector2f(DinoHitBox.width, DinoHitBox.height));
+DinoRect.setPosition(DinoHitBox.left, DinoHitBox.top);
+DinoRect.setFillColor(Color::Transparent);
+DinoRect.setOutlineColor(Color::Red);
+DinoRect.setOutlineThickness(1);
+GameScreen.draw(DinoRect);
+
+RectangleShape CactusRect(Vector2f(CactusHitBox.width, CactusHitBox.height));
+CactusRect.setPosition(CactusHitBox.left, CactusHitBox.top);
+CactusRect.setFillColor(Color::Transparent);
+CactusRect.setOutlineColor(Color::Red);
+CactusRect.setOutlineThickness(1);
+GameScreen.draw(CactusRect);
+
